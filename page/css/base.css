@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: url('../images/bg.jpg');
+  font-size: 14px;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.small-radius {
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.padding20 {
+  padding: 20px;
+}
+
+.margin-bottom20 {
+  margin-bottom: 30px;
+}
+
+.header {
+  background: #080808;
+}
+
+.header-con {
+  display: flex;
+  width: 1170px;
+  color: #fff;
+  /* background: #ccc; */
+  margin: auto;
+}
+
+.header-con .logo {
+  font-size: 20px;
+  color: #fff;
+}
+
+.logo a {
+  display: block;
+  height: 50px;
+  width: 160px;
+  line-height: 50px;
+}
+
+.header-con .header-nav {
+  flex-grow: 1;
+}
+.header-nav ul {
+  display: flex;
+}
+
+.header-nav ul li a {
+  display: block;
+  height: 50px;
+  padding: 0 20px;
+  line-height: 50px;
+}
+
+.header-con input,
+.header-con button {
+  height: 34px;
+  border: none;
+  background: #fff;
+  outline: none;
+}
+
+.header-con .header-search {
+  padding: 8px 0;
+}
+.header-search input {
+  padding: 0 12px;
+}
+.header-search button {
+  padding: 0 16px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  width: 1170px;
+  margin: 30px auto;
+}
+
+.container .content{
+  width: 750px;
+  height: 500px;
+  margin-right: 30px;
+}
+
+.container .aside {
+  width: 390px;
+  height: 600px;
+}
+
+.aside .aside-nav {
+  margin-bottom: 30px;
+  background: #1f1f1f;
+}
+.aside-nav h4 {
+  padding: 10px 15px;
+  color: red;
+  background: #080808;
+}
+
+.random-tags .nav{
+  padding: 20px 15px;
+  font-size: 0;
+}
+.aside .random-tags li{
+  display: inline-block;
+}
+
+.random-tags li a {
+  font-size: 16px;
+  color: #ccc;
+}
+.recent-hot .nav li {
+  height: 16px;
+  padding: 12px 15px;
+}
+.recent-hot .nav li,
+.recent-comment .nav li {
+  border-top: 1px solid #eee;
+}
+.recent-hot .nav li:first-child,
+.recent-comment .nav li:first-child {
+  border-top: none;
+}
+.recent-hot .nav li a {
+  display: inline-block;
+  line-height: 16px;
+  color: #fff;
+}
+
+.recent-hot .nav li a:hover {
+  color: #337ab7;
+}
+
+.recent-comment .nav {
+  color: #fff;
+}
+
+.recent-comment .nav li {
+  padding: 10px 15px;
+}
+
+.recent-comment .nav .commenter-mes {
+  margin-bottom: 5px;
+}
+.recent-comment .nav .name {
+  font-weight: bold;
+}
+
+.recent-comment .nav .time {
+  float: right;
+}
+
